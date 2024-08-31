@@ -12,6 +12,7 @@ export const Login = memo(() => {
         <Divider my={4} />
         <Stack spacing={6} py={4} px={10}>
           <Input placeholder="User ID" />
+          <Input type="password" placeholder="Password" />
           <PrimaryButton>Login</PrimaryButton>
         </Stack>
       </Box>
